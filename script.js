@@ -11,7 +11,7 @@ const createTags = function (input) {
     .split(",")
     .filter((tag) => tag.trim() !== "")
     .map((tag) => tag.trim());
-  console.log(tags);
+  
 
   tagsEl.innerHTML = "";
 
